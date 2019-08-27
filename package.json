@@ -1,9 +1,9 @@
 {
-  "name": "mae-theme-2",
-  "title": "Mae Theme 2",
-  "displayName": "Mae Theme 2",
+  "name": "mae-theme",
+  "title": "Mae Theme",
+  "displayName": "Mae Theme",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "1.0",
   "description": "It is beige time baby.",
   "license": "GPL-3.0",
   "engines": {
