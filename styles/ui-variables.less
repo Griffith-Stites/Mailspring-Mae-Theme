@@ -12,7 +12,7 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/base/ui-variable
 @gray-lighter: darken(@gray-base, 92.5%);
 @white: #0a0a0a;
 
-@accent-primary: #9a9c9a; //Selected email color, links, selected item on toolbar
+@accent-primary: #cccccc; //#9a9c9a; //Selected email color, links, selected item on toolbar
 @accent-primary-dark: darken(@accent-primary, 10%);
 
 @background-primary: #fdf6e3;
@@ -33,9 +33,9 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/base/ui-variable
 @text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
 @text-color-heading: #6a6c69; //Color for text for the buttons ta the top
 
-@text-color-link: @accent-primary;
-@text-color-link-hover: @accent-primary-dark;
-@text-color-link-active: @accent-primary-dark;
+@text-color-link: #9a9c9a; //@accent-primary;
+@text-color-link-hover: darken(@text-color-link, 10%); //@accent-primary-dark;
+@text-color-link-active: darken(@text-color-link, 10%);
 
 @btn-default-bg-color: lighten(@background-primary, 5%);
 @dropdown-default-bg-color: #fdf6e3; //dropdown menu - ie the people list
